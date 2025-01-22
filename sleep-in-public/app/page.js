@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import LogInButton from "@/components/LogInButton";
 export default function Home() {
   return (
     <div>
@@ -57,7 +57,7 @@ export default function Home() {
                   Inform the world about your sleeping habits, get reminded that
                   you are not a robot.
                 </p>
-                <button className="btn btn-primary">Get Started</button>
+                <LogInButton />
               </div>
             </div>
           </div>
